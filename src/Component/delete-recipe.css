@@ -1,0 +1,24 @@
+.delete-recipes-container {
+    width: 300px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.delete-recipes-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-recipes-button:hover {
+    background-color: #3e8e41;
+}
+
+.delete-recipes-success-message {
+    color: #4CAF50;
+    font-size: 18px;
+    margin-top: 20px;
+}  
