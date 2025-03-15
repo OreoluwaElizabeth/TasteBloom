@@ -50,3 +50,73 @@
     color: #f00;
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .create-recipe-container {
+        max-width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .create-recipe-title {
+        font-size: 1.5em;
+    }
+
+    .form-button {
+        padding: 8px 16px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .create-recipe-container {
+        max-width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .create-recipe-title {
+        font-size: 1.2em;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-label {
+        font-size: 0.9em;
+    }
+
+    .form-input, .form-textarea, .form-select {
+        padding: 4px;
+        margin-bottom: 15px;
+    }
+
+    .form-button {
+        padding: 6px 12px;
+        font-size: 0.9em;
+    }
+
+    .error-message {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 320px) {
+    .create-recipe-title {
+        font-size: 1em;
+    }
+
+    .form-label {
+        font-size: 0.8em;
+    }
+
+    .form-button {
+        padding: 5px 10px;
+        font-size: 0.8em;
+    }
+
+    .error-message {
+        font-size: 0.8em;
+    }
+}

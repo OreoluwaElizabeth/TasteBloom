@@ -89,3 +89,98 @@
 .login-link a:hover {
     color: #3e8e41;
 }
+
+@media (max-width: 768px) {
+    .signup-form {
+        width: 350px; 
+        padding: 25px; 
+    }
+
+    .signup-form h2 {
+        font-size: 22px; 
+    }
+
+    .signup-form input[type='text'], .signup-form input[type='phonenumber'], 
+    .signup-form input[type='email'], .signup-form input[type='password'],
+    .signup-form input[type='confirmpassword'] {
+        height: 18px; 
+        padding: 8px; 
+    }
+
+    .signup-form button[type="submit"] {
+        height: 36px; 
+        font-size: 14px; 
+    }
+
+    .error-message {
+        font-size: 13px; 
+    }
+
+    .login-link {
+        font-size: 14px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .signup-form {
+        width: 90%; 
+        padding: 20px; 
+    }
+
+    .signup-form h2 {
+        font-size: 20px; 
+    }
+
+    .signup-form input[type='text'], .signup-form input[type='phonenumber'], 
+    .signup-form input[type='email'], .signup-form input[type='password'],
+    .signup-form input[type='confirmpassword'] {
+        height: 16px; 
+        padding: 6px; 
+    }
+
+    .signup-form button[type="submit"] {
+        height: 32px; 
+        font-size: 12px; 
+    }
+
+    .error-message {
+        font-size: 12px; 
+    }
+
+    .login-link {
+        font-size: 12px; 
+    }
+}
+
+
+@media (max-width: 320px) {
+    .signup-form {
+        width: 95%; 
+        padding: 15px; 
+    }
+
+    .signup-form h2 {
+        font-size: 18px; 
+    }
+
+    .signup-form input[type='text'], .signup-form input[type='phonenumber'], 
+    .signup-form input[type='email'], .signup-form input[type='password'],
+    .signup-form input[type='confirmpassword'] {
+        height: 14px; 
+        padding: 5px; 
+    }
+
+    .signup-form button[type="submit"] {
+        height: 30px; 
+        font-size: 11px; 
+    }
+
+    .error-message {
+        font-size: 11px; 
+    }
+
+    .login-link {
+        font-size: 11px; 
+    }
+}

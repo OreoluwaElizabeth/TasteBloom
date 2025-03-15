@@ -75,27 +75,70 @@ nav a:hover {
     background-color: #F2C464;
 }
 
-/* .btn .login-btn {
-    background-color: #cae100;
-    color: #000000;
-    border-radius: 15px;
-    border: 1px solid #25b508;
+@media (max-width: 768px) {
+    .header {
+        padding: 8px;
+    }
+
+    .icon-logo h2 {
+        font-size: 18px; 
+    }
+
+    nav ul li {
+        margin-right: 15px; 
+    }
+
+    .btn .signup-btn {
+        padding: 8px 16px; 
+        font-size: 14px; 
+    }
 }
 
-.login-btn:hover {
-    background-color: #F2C464;
-} */
+@media (max-width: 480px) {
+    .header {
+        flex-wrap: wrap; 
+        padding: 5px;
+    }
 
-/* @media screen and (min-width:65px) {
-    .header{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        background-color: #000000;
-        color: #F7DC6F;
-        font-size: 12px;
-        position: sticky;
-        top: 0%;
-        z-index: 1000;
-    }    
-} */
+    .icon-logo {
+        margin-right: 10px; 
+    }
+
+    .icon-logo h2 {
+        font-size: 16px; 
+        margin-left: 5px; 
+    }
+
+    nav ul {
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+
+    nav ul li {
+        margin-right: 10px; 
+    }
+
+    .btn {
+        margin-top: 10px; 
+    }
+
+    .btn .signup-btn {
+        padding: 6px 12px; 
+        font-size: 12px; 
+    }
+}
+
+@media (max-width: 320px) {
+    .icon-logo h2 {
+        font-size: 14px; 
+    }
+
+    nav ul li {
+        margin-right: 8px; 
+    }
+
+    .btn .signup-btn {
+        padding: 5px 10px; 
+        font-size: 11px; 
+    }
+}

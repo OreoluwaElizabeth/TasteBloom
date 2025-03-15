@@ -29,11 +29,63 @@
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.2s ease;
+    display: block; 
 }
 
 .link:hover {
     background-color: #ffd700;
 }
+
 .link:active {
     background-color: #cae100;
+}
+
+
+@media (max-width: 768px) {
+    .board {
+        padding: 15px;
+    }
+
+    .board h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .link {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .board {
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .board h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .board li {
+        margin-bottom: 8px;
+    }
+
+    .link {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .board h1 {
+        font-size: 16px;
+    }
+
+    .link {
+        padding: 5px 10px;
+        font-size: 11px;
+    }
 }
